@@ -1,0 +1,654 @@
+body {
+margin: 0;
+background-color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+a:link {
+    text-decoration: none;
+}
+/*CABELHAÇO*/
+
+#ponto {
+    padding-top: 35px;
+    transition: 0.5s;
+}
+#ponto:hover {
+    padding-top: 45px;
+}
+#tit {
+    background-color: white;
+    border-radius: 60px;
+}
+.prop img {
+    width: 350px;
+    margin: 40px 0px 0px 180px;
+}
+.banner {
+    width: 100%;
+    height: 530px;
+    background-color: #0d64ab;
+}
+.cts h1 {
+    margin: -10px 0px 0px 50px;
+    font-size: 45px;
+    color: #ff9900;
+    text-shadow: 2px 2px 3px #000000;
+}
+.cts #link {
+    width: 80px;
+    padding-right: 25px;
+}
+.cts #wpp {
+    width: 80px;
+    padding-right: 25px;
+}
+.cts #email {
+    width: 125px;
+}
+.info {
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+.info h1 {
+    width: 603px;
+    font-size: 55px;
+    color: #ffffff;
+    margin: 50px 0px 0px 80px;
+    text-shadow: 2px 2px 4px black;
+}
+.banner .info #pr1 {
+    width: 500px;
+    font-size: 30px;
+    margin: 15px 0px 0px 80px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.prop {
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+#mural {
+    margin: 25px 0px 0px 80px;
+}
+
+/*CABELHAÇO RESPONSIVO*/
+
+@media(max-width: 1024px) {
+    .cts table {
+        padding-top: 5%;
+    }
+    .cts img {
+        padding-left: 10px;
+    }  
+    .cts #email {
+        width: 250px;
+        margin-right: -60px;
+    }    
+    .cts #wpp {
+        width: 150px;
+        margin-right: -20px;
+    }
+    .cts #link {
+        width: 150px;
+    }
+    .cts h1 {
+        font-size: 90px;
+        padding-right: 35px;
+    }
+    .cts table #tit {
+        width: 25%;
+    }
+    .banner {
+        height: 1300px;
+    }
+    .info h1 {
+        text-align: center;
+        font-size: 99px;
+        margin: 90px 0px 0px 29px;
+        width: 920px;
+    }
+    .banner .info #pr1 {
+        text-align: center;
+        font-size: 60px;
+        margin: 45px 0px 0px 130px;
+        width: 740px;
+    }
+    #ponto {
+        margin-top: 665px;
+        width: 70px;
+        margin-left: -35px;
+    }
+    .prop img {
+        width: 1px;
+        opacity: 0;
+    }
+    #mural {
+        margin: 50px 0px 0px 230px;
+        width: 560px;
+        height: 130px;
+        font-size: 72px;
+    }
+}
+
+/*APRESENTAÇÃO*/    
+
+.celulas {
+    margin: 0 auto;
+    width: 900px;
+    height: 450px;
+    padding-top: 100px;
+}
+.celulas p {
+    width: 300px;
+    text-align: center;
+    margin-top: -25px;
+    font-size: 18px;
+    padding-left: 45px;
+}
+.celulas h3 {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 28px;
+    color: #2e578b;
+}
+.celulas img {
+    width: 380px;
+    padding-left: 10px;
+}
+.celula-1 {
+    float: left;
+}
+.celula-2 {
+    float: right;
+}
+
+.celulas-2{
+    margin: 0 auto;
+    width: 900px;
+    height: 450px;
+    margin-top: 0px;
+}
+.celulas-2 p {
+    width: 300px;
+    text-align: center;
+    margin-top: -25px;
+    font-size: 19px;
+    padding-left: 45px;
+}
+.celulas-2 h3 {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 28px;
+    color: #2e578b;
+}
+.celulas-2 img {
+    width: 380px;
+    padding-left: 10px;
+}
+.celula-3 {
+    float: left;
+}
+.celula-4 {
+    float: right;
+}
+.fundo-2 {
+    width: 100%;
+    height: 1050px;
+    background-color: #e3ecff;
+}
+
+    /*CELULAS RESPONSIVES*/
+
+@media(max-width:1024px) {
+    .celula-1 {
+        float: none;
+        padding-left: 40px;
+    }
+    .celulas {
+        height: 1500px;
+    }
+    .celulas h3 {
+        text-align: start;
+        text-align: center;
+    }
+    .celulas img {
+        width: 750px;
+        margin-left: 35px;
+    }
+    .celulas p {
+        width: 750px;
+        margin-top:-60px;
+        text-align: center;
+    }
+    .fundo-2 {
+        height: 4200px;
+    }
+    .fundo-2 p {
+        font-size: 50px;
+    }
+    .fundo-2 h3 {
+        font-size: 60px;
+    }
+    .celula-2 h3{
+        text-align: center;
+    }
+    .celula-2 img {
+        padding-right: 67px;
+    }
+
+
+    .celula-3 {
+        float: none;
+    }
+    .celulas-2 img {
+        width: 750px;
+        padding-left: 70px;
+    }
+    .celulas-2 h3 {
+        text-align: center;
+    }
+    .celulas-2 p {
+        width: 800px;
+        margin-top:-60px;
+        text-align: center;
+    }
+    .celula-4 img {
+        padding-right: 90px;
+    }
+
+}
+
+.barra-p {
+    width: 100%;
+    height: 350px;
+    background-color: #176fb7;
+    margin-top: -25px;
+    color: white; 
+    text-shadow: 1px 1px 3px black;
+}
+.mural ul {
+    display: flex;
+}
+.barra-p h1 {
+    font-size: 52px;
+    padding: 45px 0px 0px 10px;
+    text-align: center;
+    width: 380px;
+    text-shadow: 4px 4px 5px black;
+}
+.barra-p h2 {
+    font-size: 30px;
+}
+.barra-p img {
+    width: 300px;
+    margin: 40px 40px 0px 90px;
+    border: 4px solid black;
+}
+.barra-p p {
+    font-size: 18px;
+    width: 450px;
+    text-indent: 30px;
+}
+.mural a {
+    color: #00ff2b;
+}
+@media (max-width: 1024px) {
+    .barra-p {
+        height: 1850px;
+    }
+    .barra-p h1 {
+        font-size: 100px;
+        width: 900px;
+        margin-top: -20px;
+    }
+    .barra-p img {
+        width: 800px;
+        margin: 0px 0px 0px 50px;
+    }
+    .barra-p h2 {
+        font-size: 80px;
+        text-align: center;
+    }
+    .barra-p p {
+        font-size: 50px;
+        width: 900px;
+        padding-left: 25px;
+        text-indent: 55px;
+    }
+    .barra-p a {
+        font-size: 55px;
+        padding: 70px 0px 0px 100px;
+    }
+    .mural ul {
+        display: block;
+    }
+}
+    /*SOBRE NÓS*/
+
+    .fundo-4 {
+        width: 100%;
+        height: 750px;
+        background-image: url(./img/background-sobre.jpg);
+        font-family: sans-serif;
+    }
+    .sobre {
+        width: 90%;
+        height: 750px;
+        margin: -60px auto;
+    }
+    .sobre p {
+        width: 620px;
+        font-size: 18px;
+    }
+    .sobre h1 {
+        color: #2e578b;
+        font-size: 45px;
+        padding: 15px 0px 0px 35px ;
+        width: 400px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .sobre h2 {
+        color: #2e578b;
+        font-size: 40px;
+    }
+    .sobre #title {
+        padding-top: 18px;
+    }
+    .sobre h4 {
+        color: #000000;
+        font-size: 22px;
+        margin: -25px 0px -8px 0px;
+    }
+    .sobre .sobre1 {
+        width: 45%;
+        height: 100%;
+        float: left;
+    }
+    .sobre .sobre2 {
+        height: 100%;
+        width: 55%;
+        float: right;
+    }
+    .test h5 {
+        opacity: 0;
+    }
+    /*SOBRE NOS RESPONSIVO*/
+
+@media(max-width:1024px) {
+    .exp-1 {
+        height: 1000px;
+    }
+    .sobre1 img {
+        width: 1px;
+        opacity: 0;
+    }
+    .sobre .sobre1 {
+        width: 1px;
+        opacity: 0;
+    }
+    .sobre .sobre2 {
+        width: 90%;
+        float: none;
+        height: 1300px;
+    }
+    .sobre2 h2 {
+        font-size: 75px;
+    }
+    .sobre2 h4 {
+        font-size: 40px;
+    }
+    .sobre2 p {
+        font-size: 40px;
+        width: 900px;
+    }
+
+    .fundo-4 {
+        height: 2100px;
+    }
+}
+    /*AULAS DE MATEMÁTICA E FÍSICA*/
+
+.fundo-3 {
+    width: 100%;
+    height: 860px;
+    background-color: rgb(99, 151, 245);
+    margin: 0 auto;
+    margin-top: -40px;
+}
+.p {
+    width: 70%;
+    height: 755px;
+    margin: 0 auto;
+    margin-top: 35px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p h1 {
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    font-size: 40px;
+    font-family: monospace;
+}
+.p p {
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    font-size: 20px;
+    margin: -15px 0px -15px 0px;
+}
+.p ul li {
+    text-shadow: 1px 1px 3px black;
+}
+.f {
+    width: 45%;
+    height: 740px;
+    float: left;
+    background-color: rgb(47, 101, 255);
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px black;
+    border: 6px solid #0ca1f9;
+    margin-top: 40px;
+}
+.m {
+    width: 45%;
+    height: 740px;
+    float: right;
+    background-color: rgb(47, 101, 255);
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px black;
+    border: 6px solid #0ca1f9;
+    margin-top: 40px;
+}
+.btn{
+    width: 240px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #2f65ff;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+    margin: -5px 0px 17px 110px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #2f65ff;
+    color: rgb(30, 255, 0);
+    font-size: 32px;
+}
+
+    /*AULAS RESPONSIVO*/
+
+@media(max-width:1024px) {
+    .fundo-3 {
+        height: 3000px;
+    }
+    .f {
+        float: none;
+        width: 750px;
+        height: 1320px;
+        margin: 50px 0px 0px -60px;
+
+    }
+    .m {
+        float: none;
+        width: 750px;
+        height: 1380px;
+        margin: 50px 0px 0px -60px;
+    }
+    .p h1 {
+        font-size: 70px;
+    }
+    .p p {
+        font-size: 45px;
+    }
+    .p .btn {
+        font-size: 55px;
+        width: 550px;
+        height: 100px;
+        margin: 0px 0px 40px 105px;
+    }
+    .p ul li {
+        font-size: 55px;
+    /* padding-left: 50px; */
+    margin-left: 60px;
+    }
+    .p {
+        padding-top: 50px;
+    }
+}
+
+/* FERAMENTAS DE VESTIBULANDO */
+
+.ajuda {
+    width: 100%;
+    height: 700px;
+    margin: -35px 0px 0px 0px;
+    background-color: #e3ecff;
+}
+.ajuda h1 {
+    color: #2e578b;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -20px;
+}
+.barra01 ul {
+    display: flex;
+    margin: -20px 0px 0px -20px;
+    list-style-type: none;
+}
+.barra01 ul li {
+    padding: 47px 0px 0px 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.barra01 div {
+    border-radius: 10px;
+    width: 400px;
+    height: 248px;
+    background-color: #ffffff;
+    color: #404040;
+    border: 1px solid rgb(214 214 214);
+    text-shadow: 1px 1px 1px black;
+}
+.barra01 h4 {
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+    margin-top: 18px;
+}
+.barra01 h2 {
+    font-size: 40px;
+    padding: 0px 0px 0px 20px;
+    margin-top: -15px;
+    width: 250px;
+}
+.barra01 h5 {
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+    margin-top: -15px;
+    color: rgb(46 87 139);
+}
+
+    /*CÉLULAS DE PROPAGANDA*/
+
+.box-p {
+    background-image: url(./img/Fundo-uni.jpg);
+    background-size: 420px;
+}
+.box-p04 {
+    background-image: url(./img/Fundo-uni.jpg);
+    background-size: 420px;
+}
+.box-p05 {
+    background-image: url(./img/Fundo-uni.jpg);
+    background-size: 420px;
+}
+.box-p06 {
+    background-image: url(./img/Fundo-uni.jpg);
+    background-size: 420px;
+}
+
+/* FERAMENTAS DE VESTIBULANDO RESPONSIVEL*/
+
+@media(max-width:1024px) {
+    .barra01 ul {
+        display: block;
+  }
+  .barra01 div {
+    width: 880px;
+    height: 520px;
+    background-repeat: no-repeat;
+    background-size: 880px;
+  }
+  .barra01 h4 {
+    font-size: 58px;
+    padding-top: 15px;
+  }
+  .barra01 h2 {
+    font-size: 75px;
+    width: 485px;
+    margin: -45px 0px 58px 0px;
+  }
+  .barra01 h5 {
+    font-size: 50px;
+
+  }
+  .ajuda h1 {
+    font-size: 90px;
+    margin-bottom: -20px;
+}
+    .ajuda {
+    margin-top:-70px;
+    height: 3800px;
+}
+.ajuda .box-p04 {
+    margin-top: 25px;
+}
+}
+
+            /* Rodapé */
+
+footer.rodape {
+    width: 100%;
+    height: 120px;
+    background-color: #252525;
+    color: #f1c40f;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+footer.rodape a {
+ color: #f1c40f;
+}
+@media(max-width: 1024px) {
+
+    footer.rodape {
+        height: 250px;
+        font-size: 3vw;
+        padding-top: 50px;
+    }
+}
